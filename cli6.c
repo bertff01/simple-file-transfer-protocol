@@ -1,9 +1,4 @@
-/* cli6.c - 	(Topic 11, HX 22/5/1995)
- *		An improved version of "cli5.c". Since TCP does not preserve the message 
- *              boundaries, each message is preceeded by a two byte value which is the
- *              length of the message. 
- * Revised;	06/11/2007
- */
+
 
 #include  <stdlib.h>
 #include  <stdio.h>
