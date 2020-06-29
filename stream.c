@@ -1,7 +1,4 @@
-/*
- *  stream.c  -	(Topic 11, HX 22/5/1995)
- *	 	routines for stream read and write. 
- */
+
 
 #include  <sys/types.h>
 #include  <netinet/in.h> /* struct sockaddr_in, htons(), htonl(), */
