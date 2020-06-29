@@ -1,13 +1,4 @@
-/*
- *  ser6.c  - 	(Topic 11, HX 22/5/1995)
- *		An improved version of "ser5.c". This version handles the message boundaries
- *              which are not preserved by the TCP. Each message transmitted between the 
- *              client and the server is preceeded by a two byte value which is the length
- *              of the message. The handling of the message length is done in routines readn
- *              and writen.	
- *  revised:	22/05/1996
- *  revised:	18/10/2006
- */
+
 
 #include  <stdlib.h>     /* strlen(), strcmp() etc */
 #include  <stdio.h>      /* printf()  */
